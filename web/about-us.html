@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>about us</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+        
+<div class="container">
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="web.html">home</a></li>
+                <li><a href="all-product.html">all product</a></li>
+                <li><a href="form.html">log in</a></li>
+                <li><a href="order.html">order</a></li>
+                <li><a href="about-us.html">about us </a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon">
+    </div>
+    
+ <div class="heading">
+    <h1>about us </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem ab repudiandae optio dolores dolorem earum cupiditate ullam minus voluptatum, vero eos ex mollitia tempora, tempore accusamus ipsam rerum facere!</p>
+ </div>
+ <div class="containerBox">
+    <section class="about">
+        <div class="about-image">
+            <img src="images/pic-3.png">
+        </div>
+        <div class="about-content">
+            <h2>vadio</h2>
+            <video width="200" height="200" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <h2>auidio</h2>
+              <audio controls autoplay>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              </audio>
+        </div>
+    </section>
+ </div>
+
+    
+</div>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("canvas",10,50);
+        </script>
+
+<!-----------------footer----------------->
+<div class="footer">
+    <hr>
+    <p class="copyright">Copyright 2023  gitHub by @ibrahim-shedo</p>
+</div>
+</body>
+</html>
